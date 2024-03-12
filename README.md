@@ -13,6 +13,27 @@ The Cricket Data Analytics🏏 project is made on T-20 Cricket World Cup Data. I
 
 ---
 
+# Data Collection
+To gather the data, BeautifulSoup (bs4) is used to scrape match, batter, bowler, and player details as well as photos from the T20 World Cup from ESPNCricinfo. The dictionary-formatted data is gathered and subsequently transformed into JSON. After that, the JSON files are fed into the Data Preprocessing.ipynb file, where pandas is used to do data preprocessing and the corresponding dataframes are constructed. After that, the dataframes are transformed to CSV files and imported for data modelling into DAX and Power Query.
+
+# Technology Used
+- Python 3
+- BeautifulSoup (bs4)
+- Pandas
+- NumPy
+- Jupyter Notebook
+- Data Modeling
+- Power Query
+- DAX
+- Power BI
+
+# Methodology
+- Data collection and cleaning
+- Exploratory data analysis
+- Feature engineering
+- Model selection and training
+- Model evaluation and validation
+
 # Steps involved in the project:
 
 1. 📝Requirement Scoping
