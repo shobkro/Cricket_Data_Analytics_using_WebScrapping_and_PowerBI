@@ -1,52 +1,43 @@
-# Cricket Data Analytics 🏏
+# Cricket Data Analytics🏏
 
-The Cricket Data Analytics🏏 project is made on T-20 Cricket World Cup Data. I have used Power BI for making the Dashboard. We can easily analyse the data of the matches played in the world cup. We can also choose our best playing 11 from the pool of players playing the world cup.
+![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
 
-To interact with the dashboard you can download the pbix file from the repository and open it in Power BI Desktop locally.
+---
 
-# Data Collection
-The data is collected using BeautifulSoup (bs4) to scrape data from ESPNCricinfo for match details, batter details, bowler details, and player details, and images from T20 World Cup. The data is collected in the form of a dictionary and then converted to JSON. The JSON files are then loaded into the Data Preprocessing.ipynb file, where data preprocessing is performed using pandas, and respective dataframes are created. The dataframes are then converted to CSV files that are loaded into Power Query and DAX for data modeling.
+The Cricket Data Analytics🏏 project is made on T-20 Cricket World Cup Data. I have used **Power BI** for making the Dashboard. We can easily analyse the data of the matches played in the world cup. We can also choose our best playing 11 from the pool of players playing the world cup. 
 
-# Technology Used
-- Python 3
-- BeautifulSoup (bs4)
-- Pandas
-- NumPy
-- Jupyter Notebook
-- Data Modeling
-- Power Query
-- DAX
-- Power BI
+> To interact with the dashboard you can download the pbix file from the repository and open it in Power BI Desktop locally.
 
-# Methodology
-- Data collection and cleaning
-- Exploratory data analysis
-- Feature engineering
-- Model selection and training
-- Model evaluation and validation
+---
 
 # Steps involved in the project:
-1) 📝Requirement Scoping
-2) 🌐Data Collection using Web Scraping from ESPN Cricinfo website
-3) 🧹Data Cleaning and Preprocessing in Pandas
-4) 🪄Data Transformation in Power Query
-5) ⚒️Data Modelling and Building Parameters in Power BI using DAX
-6) 📊Building the Dashboard in Power BI
 
-# Screenshots of the Dashboard
+1. 📝Requirement Scoping
+2. 🌐Data Collection using Web Scraping from [ESPN Cricinfo](http://www.espn.in/cricket/) website
+3. 🧹Data Cleaning and Preprocessing in Pandas
+4. 🪄Data Transformation in Power Query
+5. ⚒️Data Modelling and Building Parameters in Power BI using DAX
+6. 📊Building the Dashboard in Power BI
 
-![power_hitters_and_openers](https://github.com/shobkro/Cricket_Data_Analytics_using_WebScrapping_and_PowerBI/assets/39133098/ee1c0268-eec7-44f7-8a5c-7369a385e9b8)
+---
 
-![hover_effect](https://github.com/shobkro/Cricket_Data_Analytics_using_WebScrapping_and_PowerBI/assets/39133098/9d99bdb6-4926-438d-a2dc-2205d9186a48)
+# Screenshots of the Dashboard:
 
-![individual_stats](https://github.com/shobkro/Cricket_Data_Analytics_using_WebScrapping_and_PowerBI/assets/39133098/7007a375-aab2-4293-9fc0-d3bd35fd9415)
+![power_hitters_and_openers](https://user-images.githubusercontent.com/81465377/211144386-48070a65-7e8b-4370-af44-121b878b554b.jpg)
 
-![anchors](https://github.com/shobkro/Cricket_Data_Analytics_using_WebScrapping_and_PowerBI/assets/39133098/5a6911f8-b39b-4ee2-9189-86fc76b36690)
+![hover_effect](https://user-images.githubusercontent.com/81465377/211144410-6e11c0cd-ab86-4357-b272-9019f5efa445.jpg)
 
-![finishers](https://github.com/shobkro/Cricket_Data_Analytics_using_WebScrapping_and_PowerBI/assets/39133098/1bb13a90-5dd5-4ad3-b02c-26de7f52ff4b)
+![individual_stats](https://user-images.githubusercontent.com/81465377/211144427-bfb260dc-3586-4db2-879c-6d84f4e8ca2d.jpg)
 
-![all_rounders](https://github.com/shobkro/Cricket_Data_Analytics_using_WebScrapping_and_PowerBI/assets/39133098/d3fc1aae-129f-4163-a1ab-209e3540d547)
+![anchors](https://user-images.githubusercontent.com/81465377/211144441-423d3ba3-76ab-49bf-b0d7-9b107ca2086f.jpg)
 
-![fast_bowlers](https://github.com/shobkro/Cricket_Data_Analytics_using_WebScrapping_and_PowerBI/assets/39133098/7ffd3fd0-aa2f-4736-8d50-a9e39bc02240)
+![finishers](https://user-images.githubusercontent.com/81465377/211144456-6eb2581f-4574-4961-b693-4c8ff0dd7b19.jpg)
 
-![pick_final_11](https://github.com/shobkro/Cricket_Data_Analytics_using_WebScrapping_and_PowerBI/assets/39133098/ec43f2c2-123c-4cd0-9221-adc860598b07)
+![all_rounders](https://user-images.githubusercontent.com/81465377/211144466-43003158-fe3e-41c0-b02a-ee4db2c53379.jpg)
+
+![fast_bowlers](https://user-images.githubusercontent.com/81465377/211144473-03ca6186-b8e8-419f-87a1-786f6a2d62a6.jpg)
+
+![pick_final_11](https://user-images.githubusercontent.com/81465377/211144486-4b48e1fc-fab3-4bb0-b660-7b4da5be627d.jpg)
