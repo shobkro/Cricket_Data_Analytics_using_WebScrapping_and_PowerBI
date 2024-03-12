@@ -12,6 +12,7 @@ The data is collected using BeautifulSoup (bs4) to scrape data from ESPNCricinfo
 - BeautifulSoup (bs4)
 - Pandas
 - NumPy
+- Jupyter Notebook
 - Data Modeling
 - Power Query
 - DAX
